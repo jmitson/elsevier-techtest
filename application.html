@@ -9,12 +9,12 @@
 <script>
 var JsonGraph;
 var setup = new XMLHttpRequest();
-  setup.open("get", "ELSIO-Graph-Example.json", true);
-  setup.send();
+	setup.open("get", "ELSIO-Graph-Example.json", true);
+	setup.send();
 function doSearch()
-  {
-    bla
-  }
+{
+	bla
+}
 </script>
 </head>
   
@@ -25,16 +25,19 @@ function doSearch()
 Elsevier Product Viewer
 </div>
 
-<p>Search for publication titles from the collection using the search bar below;</p>
+<p>Browse the collection or search for specific publication titles using the search bar below;</p>
 
-<div class="searchbar">
-  <form id="newSearch" method="get" action="doSearch()">
-  <input type="text" id="searchInput" type="search" placeholder="Enter title here">
-  <br><button id="searchButton" onclick="doSearch()">search</button>
+<form id="newSearch" method="get" action="doSearch()">
+<input type="text" id="searchInput" type="search" placeholder="Enter title here">
+<br><button id="searchButton" onclick="doSearch()">Search</button>
+
+<div class="subtitle">
+Collection
 </div>
 
 <div class="address">
 <address>Made 24/01/2017
+<br>for Elsevier technical test
 <br>by Jake Mitson
 </address>
 </div>
