@@ -4,7 +4,7 @@
 <title>Technical Test</title>
 <meta charset="UTF-8">
 
-<link rel="stylesheet" type="text/css" href="x.css">
+<link type="text/css" rel="stylesheet" href="x.css">
 
 <script>
 var JsonGraph;
@@ -26,7 +26,8 @@ Product Viewer
 </div>
   
 <div class="searchbar">
-  <input id="titleSearch" type="search" placeholder="title">
+  <form id="newSearch" method="get" action="doSearch()">
+  <input type="text" id="searchInput" type="search" placeholder="enter title here">
   <button id="searchButton" onclick="doSearch()">search</button>
   
 </div>
