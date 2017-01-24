@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Product Viewer</title>
+<title>Technical Test</title>
 <meta charset="UTF-8">
 
 <link rel="stylesheet" type="text/css" href="x.css">
-</head>
 
-<body>
 <script>
 var JsonGraph;
 
 var setup = new XMLHttpRequest();
   setup.open("get", "ELSIO-Graph-Example.json", true);
   setup.send();
+
+function search()
+  {
+    bla
+  }
 </script>
+</head>
+  
+<body>
+<div class="title">
+Product Viewer
+</div>
+  
+<div class="searchbar">
+  <input id="titleSearch" type="search" placeholder="title">
+  <button id="searchButton" onclick="doSearch()">search</button>
+  
+</div>
 
 <div class="address">
 <address>Made 24/01/2017
-<br>by Jake Mitson</br></address>
+<br>by Jake Mitson
+</address>
 </div>
 
 </body>
